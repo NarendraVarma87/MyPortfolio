@@ -1,0 +1,29 @@
+img {
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 50%;
+    border: 2px solid;
+
+}
+.im{
+   max-width:250px;
+   max-height: 250px;
+  
+}
+
+#about{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#resume{
+    max-width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 160px;
+    border-radius: 20px;
+    margin-top: 20px;
+}

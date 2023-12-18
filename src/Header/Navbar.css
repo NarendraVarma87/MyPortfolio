@@ -1,0 +1,12 @@
+.navbar-nav .nav-link {
+    font-size: 22px;
+    font-weight:600;
+  }
+  .navbar-nav .nav-link:hover {
+    color: purple;
+  }
+#git {
+    width : 150px;
+    border-radius: 20px;
+    justify-content: center;
+}

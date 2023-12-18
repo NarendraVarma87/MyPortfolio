@@ -1,0 +1,22 @@
+.babu {
+    height: 45px;
+    width: 75px;
+    margin-left : 5px;
+    margin-right: 17px;
+}
+#used{
+    border: 2px solid white;
+    margin: 10px;
+}
+#stl {
+    border:1px solid white;
+    margin : 10px;
+    padding : 6px;
+    width:90%;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#try{
+    display: flex;
+    flex-wrap: wrap;
+}
