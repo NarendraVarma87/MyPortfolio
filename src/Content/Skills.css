@@ -1,15 +1,15 @@
 .babu {
     height: 45px;
-    width: 75px;
+    width: 50px;
     margin-left : 5px;
     margin-right: 17px;
 }
 #used{
-    border: 2px solid white;
+   border : 1px solid gray;
     margin: 10px;
 }
 #stl {
-    border:1px solid white;
+    border : 1px solid gray;
     margin : 10px;
     padding : 6px;
     width:90%;

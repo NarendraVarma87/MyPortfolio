@@ -16,7 +16,6 @@ const Skills = () => {
     { name: 'Springboot', icon: '/src/assets/springboot-.png' },
     { name: 'MySql', icon: '/src/assets/mysql.png' },
     { name: 'Oracle', icon: '/src/assets/oracle.jpeg' },
-    // Add more backend skills
   ];
 
   const otherSkills = [
@@ -26,11 +25,10 @@ const Skills = () => {
     { name: 'Eclipse', icon: '/src/assets/eclipse.jpeg' },
     { name: 'STS', icon: '/src/assets/sts.jpeg' },
     { name: 'Netlify', icon: '/src/assets/netlify.png' }
-    // Add more other skills
   ];
 
   return (
-    <div className="container" id='skills'>
+    <div className="container pt-4" id='skills'>
       <h2 className='text-center m-4 mt-5 text-warning'>Skills</h2>
       <p className='text-center h5 mb-2'>Here are my skills that i have been working from past 6 months</p>
     <div className="row justify-content-center  ">

@@ -9,7 +9,7 @@ export default function Footer() {
               <a href="#" class="position-absolute bottom-0 end-0 p-5">
                 <i className="fas fa-arrow-up"></i>
               </a>
-              <h5 className='my-2 text-center text-success'>Let's connect and make things happen!🚀</h5>
+              <h5 className='my-2 text-center text-success'>Let's connect and make things happen! 🚀</h5>
             <div className='container  my-1'>
                 <a href='https://www.linkedin.com/in/narendra-varma-uppalapati/' target='_blank' className='btn mx-3 h1'>
                     <span className='fab fa-linkedin'></span>
