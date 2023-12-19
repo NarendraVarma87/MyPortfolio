@@ -19,11 +19,11 @@ export default function Contact() {
     <div>
         <form ref={form} onSubmit={sendEmail}>
       <label className='form-label'>Name : </label>
-      <input type="text" name="user_name" className='form-control bs-info-border-subtle'/> <br/>
+      <input type="text" name="from_name" className='form-control bs-info-border-subtle'/> <br/>
       <label  className='form-label'>Email : </label>
-      <input type="email" name="user_email" className='form-control bs-dark-bg-subtle' /> <br/>
+      <input type="email" name="user_mail" className='form-control bs-dark-bg-subtle' /> <br/>
       <label  className='form-label'>Mobile : </label>
-      <input type="number" name="user_number" className='form-control bs-dark-bg-subtle' /> <br/>
+      <input type="number" name="user_phone" className='form-control bs-dark-bg-subtle' /> <br/>
       <label  className='form-label'>Message : </label>
       <textarea name="message" className='form-control bs-info-border-subtle' />
       <input type="submit" value="Send" className='btn btn-outline-primary w-50 my-3'/>
