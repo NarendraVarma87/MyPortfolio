@@ -3,28 +3,28 @@ import SkillsColumn from './Skillset';
 import './Skills.css'
 const Skills = () => {
   const frontendSkills = [
-    { name: 'React', icon: '/public/assets/react.png' },
-    { name: 'Bootstrap', icon: '/public/assets/bootstrap.png' },
-    { name: 'JavaScript', icon: '/public/assets/js.png' },
-    { name: 'HTML', icon: '/public/assets/html.png' },
-    { name: 'CSS', icon: '/public/assets/css.webp' }
+    { name: 'React', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990928/react_fosutk.png' },
+    { name: 'Bootstrap', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990924/bootstrap_qoyvc4.png' },
+    { name: 'JavaScript', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990927/js_suc50i.png' },
+    { name: 'HTML', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990927/html_rzuwhv.png' },
+    { name: 'CSS', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990925/css3_qnuhba.jpg' }
   ];
 
   const backendSkills = [
-    { name: 'Java', icon: 'public/assets/java.jpg' },
-    { name: 'J2EE', icon: 'public/assets/jdbc.png' },
-    { name: 'Springboot', icon: '/public/assets/springboot-.png' },
-    { name: 'MySql', icon: '/public/assets/mysql.png' },
-    { name: 'Oracle', icon: '/public/assets/oracle.jpeg' },
+    { name: 'Java', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990927/java_uxmpq0.jpg' },
+    { name: 'J2EE', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702992083/jdbc_cvpsy4.png' },
+    { name: 'Springboot', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990845/springboot-_oslvew.png' },
+    { name: 'MySql', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990927/mysql_qrvvpc.png' },
+    { name: 'Oracle', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702991859/oracle_gijikd.jpg' },
   ];
 
   const otherSkills = [
-    { name: 'GitHub', icon: '/public/assets/github-2.png' },
-    { name: 'PostMan', icon: '/public/assets/postman.png' },
+    { name: 'GitHub', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990926/github-2_bojg3b.png' },
+    { name: 'PostMan', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990927/postman_jtolk4.png' },
     { name: 'VSCode', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990928/vscode_qmskm9.jpg' },
-    { name: 'Eclipse', icon: '/public/assets/eclipse.jpeg' },
-    { name: 'STS', icon: '/public/assets/sts.jpeg' },
-    { name: 'Netlify', icon: '/public/assets/netlify.png' }
+    { name: 'Eclipse', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990926/eclipse_uasgks.jpg' },
+    { name: 'STS', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702991732/sts_ysgmgt.jpg' },
+    { name: 'Netlify', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990928/netlify_cz0peq.png' }
   ];
 
   return (
