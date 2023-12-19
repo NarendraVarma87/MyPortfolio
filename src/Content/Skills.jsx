@@ -21,7 +21,7 @@ const Skills = () => {
   const otherSkills = [
     { name: 'GitHub', icon: '/public/assets/github-2.png' },
     { name: 'PostMan', icon: '/public/assets/postman.png' },
-    { name: 'VSCode', icon: '/public/assets/vscode.jpeg' },
+    { name: 'VSCode', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990928/vscode_qmskm9.jpg' },
     { name: 'Eclipse', icon: '/public/assets/eclipse.jpeg' },
     { name: 'STS', icon: '/public/assets/sts.jpeg' },
     { name: 'Netlify', icon: '/public/assets/netlify.png' }
