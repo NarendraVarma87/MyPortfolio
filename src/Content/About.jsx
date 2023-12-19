@@ -7,7 +7,7 @@ export default function About() {
         <div className="col-md-6 text-center">
           <div className="text-md-center mt-4 d-none d-md-block">
             <img
-              src="/src/assets/me.jpg"
+              src="/public/assets/me.jpg"
               alt="Your Image Alt Text"
               className="img-fluid rounded-circle "
               style={{ width: '380px', height: '380px' }}
@@ -15,7 +15,7 @@ export default function About() {
           </div>
           <div className="text-md-center m-auto mt-4 im d-md-none">
             <img
-              src="/src/assets/me.jpg"
+              src="/public/assets/me.jpg"
               alt="Your Image Alt Text"
               className="img-fluid rounded-circle im"
               style={{ width: '380px', height: '380px' }}

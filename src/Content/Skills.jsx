@@ -3,28 +3,28 @@ import SkillsColumn from './Skillset';
 import './Skills.css'
 const Skills = () => {
   const frontendSkills = [
-    { name: 'React', icon: '/src/assets/react.png' },
-    { name: 'Bootstrap', icon: '/src/assets/bootstrap.png' },
-    { name: 'JavaScript', icon: '/src/assets/js.png' },
-    { name: 'HTML', icon: '/src/assets/html.png' },
-    { name: 'CSS', icon: '/src/assets/css.webp' }
+    { name: 'React', icon: '/public/assets/react.png' },
+    { name: 'Bootstrap', icon: '/public/assets/bootstrap.png' },
+    { name: 'JavaScript', icon: '/public/assets/js.png' },
+    { name: 'HTML', icon: '/public/assets/html.png' },
+    { name: 'CSS', icon: '/public/assets/css.webp' }
   ];
 
   const backendSkills = [
-    { name: 'Java', icon: '/src/assets/java.webp' },
-    { name: 'J2EE', icon: '/src/assets/jdbc.png' },
-    { name: 'Springboot', icon: '/src/assets/springboot-.png' },
-    { name: 'MySql', icon: '/src/assets/mysql.png' },
-    { name: 'Oracle', icon: '/src/assets/oracle.jpeg' },
+    { name: 'Java', icon: 'public/assets/java.jpg' },
+    { name: 'J2EE', icon: 'public/assets/jdbc.png' },
+    { name: 'Springboot', icon: '/public/assets/springboot-.png' },
+    { name: 'MySql', icon: '/public/assets/mysql.png' },
+    { name: 'Oracle', icon: '/public/assets/oracle.jpeg' },
   ];
 
   const otherSkills = [
-    { name: 'GitHub', icon: '/src/assets/github-2.png' },
-    { name: 'PostMan', icon: '/src/assets/postman.png' },
-    { name: 'VSCode', icon: '/src/assets/vscode.jpeg' },
-    { name: 'Eclipse', icon: '/src/assets/eclipse.jpeg' },
-    { name: 'STS', icon: '/src/assets/sts.jpeg' },
-    { name: 'Netlify', icon: '/src/assets/netlify.png' }
+    { name: 'GitHub', icon: '/public/assets/github-2.png' },
+    { name: 'PostMan', icon: '/public/assets/postman.png' },
+    { name: 'VSCode', icon: '/public/assets/vscode.jpeg' },
+    { name: 'Eclipse', icon: '/public/assets/eclipse.jpeg' },
+    { name: 'STS', icon: '/public/assets/sts.jpeg' },
+    { name: 'Netlify', icon: '/public/assets/netlify.png' }
   ];
 
   return (
