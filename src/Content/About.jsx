@@ -36,7 +36,7 @@ export default function About() {
                 I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset,
                  I am ready to make a meaningful contribution and achieve great things.</p>
                  <span></span>
-      <a href='https://drive.google.com/file/d/1D6zxeD6yEQUHYI9IiiG_skSBUhS5p7zY/view?usp=sharing' target='_blank' className='d-flex btn btn-outline-info p-2' id='resume'>Check Resume</a>
+      <a href='https://drive.google.com/file/d/138FueWbgFtHy2U28qC5AotsDqqymRCpc/view' target='_blank' className='d-flex btn btn-outline-info p-2' id='resume'>Check Resume</a>
 
           </div>
         </div>
