@@ -4,6 +4,7 @@ import './Skills.css'
 const Skills = () => {
   const frontendSkills = [
     { name: 'React', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990928/react_fosutk.png' },
+    {name :'Redux', icon :'https://res.cloudinary.com/dau1qydx2/image/upload/v1706974435/redux_v6o6ei.png'},
     { name: 'Bootstrap', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990924/bootstrap_qoyvc4.png' },
     { name: 'JavaScript', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990927/js_suc50i.png' },
     { name: 'HTML', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990927/html_rzuwhv.png' },
@@ -24,7 +25,8 @@ const Skills = () => {
     { name: 'VSCode', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990928/vscode_qmskm9.jpg' },
     { name: 'Eclipse', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990926/eclipse_uasgks.jpg' },
     { name: 'STS', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702991732/sts_ysgmgt.jpg' },
-    { name: 'Netlify', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990928/netlify_cz0peq.png' }
+    { name: 'Netlify', icon: 'https://res.cloudinary.com/dau1qydx2/image/upload/v1702990928/netlify_cz0peq.png' },
+    {name : 'Vercel' , icon :'https://res.cloudinary.com/dau1qydx2/image/upload/v1706974988/vercel_mst6cv.png'}
   ];
 
   return (
