@@ -31,12 +31,9 @@ export default function About() {
                                  </span>
                                         </h4></h2>
             <p className='m-2' >
-                I am a motivated and versatile individual,
-                always eager to take on new challenges. With a passion for learning
-                I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset,
-                 I am ready to make a meaningful contribution and achieve great things.</p>
+            As a recent graduate, I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning, I am dedicated to delivering high-quality results. My positive attitude and growth mindset drive me to make a meaningful contribution and achieve great things.</p>
                  <span></span>
-      <a href='https://drive.google.com/file/d/138FueWbgFtHy2U28qC5AotsDqqymRCpc/view' target='_blank' className='d-flex btn btn-outline-info p-2' id='resume'>Check Resume</a>
+      <a href='https://drive.google.com/file/d/126K42xY9rZM0HdUqjEHLkqB-paw3aLAA/view?usp=sharing' target='_blank' className='d-flex btn btn-outline-info p-2' id='resume'>Check Resume</a>
 
           </div>
         </div>

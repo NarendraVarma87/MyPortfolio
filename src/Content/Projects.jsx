@@ -13,7 +13,7 @@ export default function Projects() {
                   <h4>Employe Management System</h4>
                   <p>This Employee Management System uses ReactJS for a dynamic UI, Spring Boot for a robust back-end API, and MySQL for efficient data storage. It includes features like Adding , Updating , Deleting , Fetching employee , ensuring scalability for organizational growth.</p>
                   <p className='h6 text-info'>Skills: React, Bootstrap, Springboot, MySql</p>
-                  <h2 className='text-center'><a className='btn btn-primary mx-3' href='https://github.com/NarendraVarma87/Full-Stack-Project' target='_blank'>Source code</a>
+                  <h2 className='text-center'><a className='btn btn-primary mx-3 m-md-4' href='https://github.com/NarendraVarma87/Full-Stack-Project' target='_blank'>Source code</a>
                   <a href="https://employe-management-system-nu.vercel.app/" target='_blank' className='btn btn-primary mx-5'>Live App</a></h2>
                 </div>
              </div>
@@ -27,7 +27,7 @@ export default function Projects() {
                   User-Friendly Interface: Intuitive design for seamless navigation.
                   </p>
                   <p className='h6 text-info'>Skills: React, Redux, Spring Boot, MySql</p>
-                  <h2 className='text-center'><a className='btn btn-primary mx-3' href='https://github.com/NarendraVarma87/ShopEasy' target='_blank'>Source code</a>
+                  <h2 className='text-center'><a className='btn btn-primary mx-3 m-md-4' href='https://github.com/NarendraVarma87/ShopEasy' target='_blank'>Source code</a>
                   <a href="https://shop-easy-react-redux.vercel.app/" target='_blank' className='btn btn-primary mx-5'>Live App</a></h2>
               </div>
              </div>
@@ -37,7 +37,7 @@ export default function Projects() {
                   <h4>Registration Form Validation</h4>
                   <p>Ensure a seamless user experience with React's client-side validation for fields like email and password. Provide real-time feedback and prevent default form submission for better error handling. Use React state to manage dynamic updates, and consider server-side validation.</p>
                   <p className='h6 text-info'>Skills: React</p>
-                  <h2 className='text-center'><a className='btn btn-primary mx-3' href='https://github.com/NarendraVarma87/Project/tree/main/application' target='_blank'>Source code</a>
+                  <h2 className='text-center'><a className='btn btn-primary mx-3 m-md-4' href='https://github.com/NarendraVarma87/Project/tree/main/application' target='_blank'>Source code</a>
                   <a href="https://form-validation-handling-react.vercel.app/" target='_blank' className='btn btn-primary mx-5'>Live App</a></h2>
               </div>
              </div>
@@ -47,7 +47,7 @@ export default function Projects() {
                 <h4>Responsive Blog</h4>
                 <p>Explore the frontend realm through my blog, where I delve into the art of crafting a captivating website. With HTML laying the groundwork, CSS brings life to designs, while Bootstrap streamlines responsiveness. Dive into the world of frontend development, where creativity meets functionality for a visually stunning online presence.</p>
                 <p className='h6 text-info'>Skills : Javascript, Bootstrap, Html and Css</p>
-                <h2 className='text-center'><a className='btn btn-primary mx-3' href='https://github.com/NarendraVarma87/Bootstrap-frontend-bootcamp' target='_blank'>Source code</a>
+                <h2 className='text-center'><a className='btn btn-primary mx-3 m-md-4' href='https://github.com/NarendraVarma87/Bootstrap-frontend-bootcamp' target='_blank'>Source code</a>
                 <a href="https://bootstrap5-bootcamp-varma.netlify.app/"  target='_blank' className='btn btn-primary mx-5'>Live App</a></h2>
             </div>
              </div>
@@ -80,7 +80,7 @@ export default function Projects() {
                     Responsive Design: Enjoy a seamless shopping experience across devices.
                 </p>
                 <p className='h6 text-info'>Skills: React , Redux , Bootstrap</p>
-                <h2 className='text-center'><a className='btn btn-primary mx-3' href='https://github.com/NarendraVarma87/react_redux_mobileStore' target='_blank'>Source code</a>
+                <h2 className='text-center'><a className='btn btn-primary mx-3 m-md-4' href='https://github.com/NarendraVarma87/react_redux_mobileStore' target='_blank'>Source code</a>
                 <a href="https://react-redux-mobile-store.vercel.app/"  target='_blank' className='btn btn-primary mx-5'>Live App</a></h2>
               </div>
             </div>
