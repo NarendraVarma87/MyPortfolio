@@ -10,7 +10,7 @@ export default function Projects() {
            <div className="col-12 col-md-6 col-lg-4">
                 <div className="project-card m-2" style={{border:'1px solid white'}}>
                   <img src="https://res.cloudinary.com/dau1qydx2/image/upload/v1702991897/fullstack_rh5tx4.webp" alt="Project 1 Image" width='30%' height='25%' className='my-1'/>
-                  <h4>Employe Management System</h4>
+                  <h4 className='m-2'>Employe Management System</h4>
                   <p>This Employee Management System uses ReactJS for a dynamic UI, Spring Boot for a robust back-end API, and MySQL for efficient data storage. It includes features like Adding , Updating , Deleting , Fetching employee , ensuring scalability for organizational growth.</p>
                   <p className='h6 text-info'>Skills: React, Bootstrap, Springboot, MySql</p>
                   <h2 className='text-center'><a className='btn btn-primary mx-3 m-md-4' href='https://github.com/NarendraVarma87/Full-Stack-Project' target='_blank'>Source code</a>
@@ -20,11 +20,11 @@ export default function Projects() {
              <div className="col-12 col-md-6 col-lg-4">
                 <div className="project-card m-2" style={{border:'1px solid white'}}>
                 <img src="https://res.cloudinary.com/dau1qydx2/image/upload/v1706972808/Screenshot_2024-02-03_203530_qmk5lg.png" alt="Project 2 Image"  width='30%' height='25%' className='my-1'/>
-                  <h4>ShopEasy</h4>
-                  <p>ShopEasy is an e-commerce platform designed to simplify your online shopping experience. Browse through a wide range of products, add them to your cart, and place orders hassle-free.
+                  <h4 className='m-2'>ShopEasy</h4>
+                  <p className='mt-2'>ShopEasy is an e-commerce platform designed to simplify your online shopping experience. Browse through a wide range of products, add them to your cart, and place orders hassle-free.
                   React for the frontend.
                   Redux for state management.
-                  User-Friendly Interface: Intuitive design for seamless navigation.
+                  User-Friendly Interface.
                   </p>
                   <p className='h6 text-info'>Skills: React, Redux, Spring Boot, MySql</p>
                   <h2 className='text-center'><a className='btn btn-primary mx-3 m-md-4' href='https://github.com/NarendraVarma87/ShopEasy' target='_blank'>Source code</a>
@@ -34,7 +34,7 @@ export default function Projects() {
              <div className="col-12 col-md-6 col-lg-4">
                 <div className="project-card m-2" style={{border:'1px solid white'}}>
                 <img src="https://res.cloudinary.com/dau1qydx2/image/upload/v1702991956/form-validation_lovsdo.jpg" alt="Project 2 Image"  width='30%' height='25%' className='my-1'/>
-                  <h4>Registration Form Validation</h4>
+                  <h4 className='m-2'>Registration Form Validation</h4>
                   <p>Ensure a seamless user experience with React's client-side validation for fields like email and password. Provide real-time feedback and prevent default form submission for better error handling. Use React state to manage dynamic updates, and consider server-side validation.</p>
                   <p className='h6 text-info'>Skills: React</p>
                   <h2 className='text-center'><a className='btn btn-primary mx-3 m-md-4' href='https://github.com/NarendraVarma87/Project/tree/main/application' target='_blank'>Source code</a>
