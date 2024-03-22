@@ -33,7 +33,7 @@ export default function About() {
             <p className='m-2' >
             As a recent graduate, I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning, I am dedicated to delivering high-quality results. My positive attitude and growth mindset drive me to make a meaningful contribution and achieve great things.</p>
                  <span></span>
-      <a href='https://drive.google.com/file/d/126K42xY9rZM0HdUqjEHLkqB-paw3aLAA/view?usp=sharing' target='_blank' className='d-flex btn btn-outline-info p-2' id='resume'>Check Resume</a>
+      <a href='https://drive.google.com/file/d/16dJJuIl-6HLhNpYstKl0FidWsNSvWHwr/view?usp=sharing' target='_blank' className='d-flex btn btn-outline-info p-2' id='resume'>Check Resume</a>
 
           </div>
         </div>
