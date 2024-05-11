@@ -32,7 +32,7 @@ const Skills = () => {
   return (
     <div className="container pt-4" id='skills'>
       <h2 className='text-center m-4 mt-5 text-warning'>Skills</h2>
-      <p className='text-center h5 mb-2'>Here are my skills that i have been working from past 10 months</p>
+      <p className='text-center h5 mb-2'>Here are my skills that i have been working from past 1 year</p>
     <div className="row justify-content-center  ">
       <div className="col-lg-6  h5">
         <SkillsColumn title="Frontend" skills={frontendSkills} />
