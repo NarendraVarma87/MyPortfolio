@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 
 export default function Contact() {
     const form = useRef();
+    const [showMessage, setShowMessage] = useState(false);
     const [formData, setFormData] = useState({
       from_name: '',
       user_mail: '',
@@ -12,7 +13,7 @@ export default function Contact() {
 
     const sendEmail = (e) => {
       e.preventDefault();
-      alert('Details Submitted');
+      setShowMessage(true);
 
       setFormData({
         from_name: '',
@@ -30,6 +31,7 @@ export default function Contact() {
     };
   return (
     <div className='px-5'>
+        {showMessage && <div className='text-success m-1'>Your details submitted successfully...</div>}
         <form ref={form} onSubmit={sendEmail}>
       <label className='form-label' style={{display: 'block'}}>Name : </label>
       <input type="text" name="from_name" className='form-control bs-info-border-subtle'
