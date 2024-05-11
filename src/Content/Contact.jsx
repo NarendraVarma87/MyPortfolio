@@ -37,20 +37,20 @@ export default function Contact() {
       <input type="text" name="from_name" className='form-control bs-info-border-subtle'
            placeholder='Enter your Name' value={formData.from_name}
                onChange={(e) => setFormData({ ...formData, from_name: e.target.value })}
-                       style={{ fontSize: '1.2rem' }}/> 
+                       style={{ fontSize: '1.2rem' }} required/> 
       <br/>
       <label  className='form-label'>Email : </label>
       <input type="email" name="user_mail" className='form-control bs-dark-bg-subtle'
             placeholder='Enter your Email'
                   value={formData.user_mail}
                      onChange={(e) => setFormData({ ...formData, user_mail: e.target.value })}
-                      style={{ fontSize: '1.2rem' }}/> 
+                      style={{ fontSize: '1.2rem' }} required/> 
       <br/>
       <label  className='form-label'>Mobile : </label>
       <input type="number" name="user_phone" className='form-control bs-dark-bg-subtle'
        placeholder='Enter your Mobile Number' value={formData.user_phone}
             onChange={(e) => setFormData({ ...formData, user_phone: e.target.value })} 
-                 style={{ fontSize: '1.2rem' }}/> 
+                 style={{ fontSize: '1.2rem' }} required/> 
       <br/>
       <label  className='form-label'>Message : </label>
       <textarea name="message" className='form-control bs-info-border-subtle'
