@@ -14,7 +14,9 @@ export default function Contact() {
     const sendEmail = (e) => {
       e.preventDefault();
       setShowMessage(true);
-
+      setTimeout(() => {
+      setShowMessage(false);
+      }, 3000);
       setFormData({
         from_name: '',
         user_mail: '',
